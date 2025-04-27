@@ -16,14 +16,15 @@
   --orange: #fcae4a;
 
   /* Spacing */
-  --500: 2.5rem /*40px*/    
-  --400: 2rem /*32px*/    
-  --300: 1.5rem /*24px*/    
-  --200: 1rem /*16px*/    
-  --100: .5rem /*8px*/    
+  --500-40px: 2.5rem;
+  --400-32px: 2rem;
+  --300-24px: 1.5rem;
+  --200-16px: 1rem;
+  --100-8px: 0.5rem;
 
+  /* Typography*/
 
-  /* Typography*/ .text-preset-1 {
+  .text-preset-1 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -67,4 +68,48 @@
     line-height: 160%;
     letter-spacing: 0px;
   }
+}
+
+body {
+  margin: 160px;
+  background: #fafafa;
+}
+
+.page-title {
+  justify-self: center;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 74px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--400-32px);
+}
+
+.card-supervisor {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  padding: var(--400-32px);
+  border-top: solid var(--cyan);
+  border-radius: 8px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.supervisor-title {
+  color: var(--grey-500);
+  margin-bottom: var(--100-8px);
+}
+
+.supervisor-text {
+  color: var(--grey-400);
+  margin-bottom: var(--400-32px);
+}
+
+.supervisor-image {
+  position: absolute;
+  bottom: var(--500-40px);
+  right: var(--400-32px);
 }
