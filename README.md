@@ -14,7 +14,7 @@
 
 This is an exercise from the Frontend Mentor.
 
-- Blog preview card: [https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)
+- Link: [https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)
 
 ### Screenshot
 ![image](https://github.com/user-attachments/assets/f5c82708-7f80-429c-9347-728adc5ea698)
