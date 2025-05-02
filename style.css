@@ -80,6 +80,7 @@ body {
   justify-items: center;
   align-items: center;
   margin-bottom: 74px;
+  color: var(--grey-500);
 }
 
 .cards-container {
@@ -98,17 +99,47 @@ body {
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
-.supervisor-title {
+.card-team-builder {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  padding: var(--400-32px);
+  border-top: solid var(--red);
+  border-radius: 8px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-karma {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  padding: var(--400-32px);
+  border-top: solid var(--orange);
+  border-radius: 8px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-calculator {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  padding: var(--400-32px);
+  border-top: solid var(--blue);
+  border-radius: 8px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
   color: var(--grey-500);
   margin-bottom: var(--100-8px);
 }
 
-.supervisor-text {
+.card-text {
   color: var(--grey-400);
   margin-bottom: var(--400-32px);
 }
 
-.supervisor-image {
+.card-image {
   position: absolute;
   bottom: var(--500-40px);
   right: var(--400-32px);
